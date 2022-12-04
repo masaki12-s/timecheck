@@ -1,6 +1,4 @@
 import unittest
-# import os,sys
-# sys.path.append(os.path.join("..","speciallecture"))
 from speciallecture.Timecheck import Timecheck
 
 class TestTimecheck(unittest.TestCase):
