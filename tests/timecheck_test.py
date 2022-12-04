@@ -34,4 +34,4 @@ class TestTimecheck(unittest.TestCase):
     
     def test_read8(self):
         timecheck = Timecheck()
-        self.assertEqual("NG", timecheck.check(23, 22, 5))
+        self.assertEqual("OK", timecheck.check(23, 22, 5))
